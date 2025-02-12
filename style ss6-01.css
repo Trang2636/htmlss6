@@ -1,0 +1,28 @@
+*{
+    text-align: center;
+}
+.menu ul il{
+   margin: 0px 15px;
+   font-size: small;
+   margin-top: 25px;
+   
+}
+
+.menu{
+    background-color: #007bff;
+    color: aliceblue;
+    padding: 30px;
+}
+
+.pic{
+    margin-left: 12cm;
+}
+
+.tfoot{
+    background-color: darkgrey;
+}
+
+.menu .link{
+    text-decoration: solid;
+    color: aliceblue;
+}
