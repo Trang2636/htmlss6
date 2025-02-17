@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0  ;
+}
+.container{
+   border: 2px solid rgb(249, 246, 246);
+   border-radius: 5px;
+   height: 210px;
+   width: 890px;
+color: aliceblue;
+
+   
+}
+
+.top{
+display: flex;
+justify-content: space-evenly;
+
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.child{
+    border: solid ;
+    justify-content: center;
+    height: 80px;
+    width: 127px;
+    line-height: 80px;
+    text-align: center;
+    margin: 10px 10px;
+background-color: rgb(182, 52, 135);
+border-radius: 10px;
+}
+
+.bottom .child {
+   
+}
