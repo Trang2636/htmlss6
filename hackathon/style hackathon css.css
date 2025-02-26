@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Sora";
+}
+
+section{
+    width:100%;
+}
+
+img{
+    
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(28, 24, 24);
+    
+}
+
+nav{
+    padding: 24px 80px;
+   
+}
+
+.left{
+    display: flex;
+}
+
+.left h4{
+    justify-content: center;
+    margin-top: 10px;
+}
+
+ul{
+    display: flex;
+    gap:32px;
+    width: 437px;
+    
+}
+
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: rgb(26, 10, 10);
+    color: azure;
+    text-align: center;
+    width: 153px;
+    height: 56px;
+    border-radius: 4px;
+}
+
+.container{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 100px;
+    
+}
+
+.title{
+    font-size: larger;
+    width: 900px;
+    height: 100px;
+    padding: 20px 20px;
+    font-size: xxx-large;
+}
+
+.title .white{
+color: rgb(185, 190, 195);
+border-color: black;
+}
+
+.intro{
+    color: #71717A;
+    width: 300px;
+    height: 90px;
+    padding: 200px 20px;
+    font-size: larger;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.list-icon{
+    display: flex;
+    gap: 32px;
+    margin-left: 10px;
+}
+
+.list-skills img{
+    border: 2px solid rgb(16, 13, 13);
+   width: 186px;
+    height: 186px;
+    padding: 24px;
+    border-radius: 4px;
+    
+}
+
+.skill-post{
+    width: 1.280px;
+    height: 608px;
+    padding-right: 32px;
+    padding-left: 32px;
+    gap: 20px;
+}
+
+.top {
+    display: flex;
+    gap: 102px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bot {
+    display: flex;
+    gap: 102px;
+    margin-left: 20px;
+}
+
+.skill-post .title {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 734px;
+    height: 56px;
+}
+
+.list-skills{
+    padding-top: 20px;
+    padding-bottom: 20px;
+   justify-content: center;
+}
+
+.experience{
+    background-color: rgb(16, 15, 15);
+    color: white;
+
+}
+
+.num-1{
+    border: 1px solid rgb(174, 172, 172);
+    border-radius: 3px;
+}
+
+.experience .title-post{
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+    margin: 20px 20px;
+}
+
+.mid img{
+    width: 50%;
+    height: 500px;
+}
+
+.post{
+    font-size: medium;
+}
+
+@media (max-width: 768px) {
+   ul a  {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background: white;
+        right: 20px;
+        top: 60px;
+        width: 200px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+}

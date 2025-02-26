@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.skill {
+    padding: 96px 80px;
+}
+
+.skill button {
+    background-color: #E5E7EB;
+    border-radius: 6px;
+    padding: 4px 16px;
+    border: none;
+}
+
+.skill .first-row {
+    text-align: center;
+
+}
+
+.skill p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.skill .row .col {
+    width: 80px;
+    height: 80px;
+    background-color: pink;
+}
+
+.skill .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+    .skill .row {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .skill .row .col {
+        width: calc(25% - 25px);
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .skill .row .col {
+        width: calc(33.33% - 25px);
+    }
+
+    .skill {
+        padding: 96px 40px;
+    }
+}

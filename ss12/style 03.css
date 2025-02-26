@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.btn-close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
